@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8741DE1B7C6F9400025F10 /* LGSelectButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8741DD1B7C6F9400025F10 /* LGSelectButtonView.m */; };
+		CEC9A37A1B7B1B6400DBF2C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9A3791B7B1B6400DBF2C9 /* main.m */; };
+		CEC9A37D1B7B1B6400DBF2C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9A37C1B7B1B6400DBF2C9 /* AppDelegate.m */; };
+		CEC9A3801B7B1B6400DBF2C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9A37F1B7B1B6400DBF2C9 /* ViewController.m */; };
+		CEC9A3831B7B1B6400DBF2C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3811B7B1B6400DBF2C9 /* Main.storyboard */; };
+		CEC9A3851B7B1B6400DBF2C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3841B7B1B6400DBF2C9 /* Images.xcassets */; };
+		CEC9A3881B7B1B6400DBF2C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3861B7B1B6400DBF2C9 /* LaunchScreen.xib */; };
+		CEC9A3941B7B1B6400DBF2C9 /* LGSelectButtonViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9A3931B7B1B6400DBF2C9 /* LGSelectButtonViewTests.m */; };
+		CEC9A3A91B7B2A2B00DBF2C9 /* class_down_arrow_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3A71B7B2A2B00DBF2C9 /* class_down_arrow_iPhone.png */; };
+		CEC9A3AA1B7B2A2B00DBF2C9 /* class_up_arrow_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3A81B7B2A2B00DBF2C9 /* class_up_arrow_iPhone.png */; };
+		CEC9A3AC1B7B2F1E00DBF2C9 /* preference_button_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3AB1B7B2F1E00DBF2C9 /* preference_button_iphone.png */; };
+		CEC9A3AE1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3AD1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC9A38E1B7B1B6400DBF2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC9A36C1B7B1B6300DBF2C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC9A3731B7B1B6400DBF2C9;
+			remoteInfo = LGSelectButtonView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE8741DC1B7C6F9400025F10 /* LGSelectButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSelectButtonView.h; sourceTree = "<group>"; };
+		CE8741DD1B7C6F9400025F10 /* LGSelectButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSelectButtonView.m; sourceTree = "<group>"; };
+		CEC9A3741B7B1B6400DBF2C9 /* LGSelectButtonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGSelectButtonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC9A3781B7B1B6400DBF2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC9A3791B7B1B6400DBF2C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC9A37B1B7B1B6400DBF2C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC9A37C1B7B1B6400DBF2C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC9A37E1B7B1B6400DBF2C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEC9A37F1B7B1B6400DBF2C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEC9A3821B7B1B6400DBF2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC9A3841B7B1B6400DBF2C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEC9A3871B7B1B6400DBF2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEC9A38D1B7B1B6400DBF2C9 /* LGSelectButtonViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSelectButtonViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC9A3921B7B1B6400DBF2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC9A3931B7B1B6400DBF2C9 /* LGSelectButtonViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSelectButtonViewTests.m; sourceTree = "<group>"; };
+		CEC9A3A71B7B2A2B00DBF2C9 /* class_down_arrow_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_down_arrow_iPhone.png; sourceTree = "<group>"; };
+		CEC9A3A81B7B2A2B00DBF2C9 /* class_up_arrow_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_up_arrow_iPhone.png; sourceTree = "<group>"; };
+		CEC9A3AB1B7B2F1E00DBF2C9 /* preference_button_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preference_button_iphone.png; sourceTree = "<group>"; };
+		CEC9A3AD1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intelligent_backImage_ipad.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC9A3711B7B1B6400DBF2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC9A38A1B7B1B6400DBF2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC9A36B1B7B1B6300DBF2C9 = {
+			isa = PBXGroup;
+			children = (
+				CEC9A3761B7B1B6400DBF2C9 /* LGSelectButtonView */,
+				CEC9A3901B7B1B6400DBF2C9 /* LGSelectButtonViewTests */,
+				CEC9A3751B7B1B6400DBF2C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC9A3751B7B1B6400DBF2C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC9A3741B7B1B6400DBF2C9 /* LGSelectButtonView.app */,
+				CEC9A38D1B7B1B6400DBF2C9 /* LGSelectButtonViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC9A3761B7B1B6400DBF2C9 /* LGSelectButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				CEC9A39D1B7B1B8700DBF2C9 /* LGSelectButtonView */,
+				CEC9A37B1B7B1B6400DBF2C9 /* AppDelegate.h */,
+				CEC9A37C1B7B1B6400DBF2C9 /* AppDelegate.m */,
+				CEC9A37E1B7B1B6400DBF2C9 /* ViewController.h */,
+				CEC9A37F1B7B1B6400DBF2C9 /* ViewController.m */,
+				CEC9A3811B7B1B6400DBF2C9 /* Main.storyboard */,
+				CEC9A3A71B7B2A2B00DBF2C9 /* class_down_arrow_iPhone.png */,
+				CEC9A3AD1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg */,
+				CEC9A3AB1B7B2F1E00DBF2C9 /* preference_button_iphone.png */,
+				CEC9A3A81B7B2A2B00DBF2C9 /* class_up_arrow_iPhone.png */,
+				CEC9A3841B7B1B6400DBF2C9 /* Images.xcassets */,
+				CEC9A3861B7B1B6400DBF2C9 /* LaunchScreen.xib */,
+				CEC9A3771B7B1B6400DBF2C9 /* Supporting Files */,
+			);
+			path = LGSelectButtonView;
+			sourceTree = "<group>";
+		};
+		CEC9A3771B7B1B6400DBF2C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC9A3781B7B1B6400DBF2C9 /* Info.plist */,
+				CEC9A3791B7B1B6400DBF2C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC9A3901B7B1B6400DBF2C9 /* LGSelectButtonViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC9A3931B7B1B6400DBF2C9 /* LGSelectButtonViewTests.m */,
+				CEC9A3911B7B1B6400DBF2C9 /* Supporting Files */,
+			);
+			path = LGSelectButtonViewTests;
+			sourceTree = "<group>";
+		};
+		CEC9A3911B7B1B6400DBF2C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC9A3921B7B1B6400DBF2C9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC9A39D1B7B1B8700DBF2C9 /* LGSelectButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				CE8741DC1B7C6F9400025F10 /* LGSelectButtonView.h */,
+				CE8741DD1B7C6F9400025F10 /* LGSelectButtonView.m */,
+			);
+			name = LGSelectButtonView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC9A3731B7B1B6400DBF2C9 /* LGSelectButtonView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC9A3971B7B1B6400DBF2C9 /* Build configuration list for PBXNativeTarget "LGSelectButtonView" */;
+			buildPhases = (
+				CEC9A3701B7B1B6400DBF2C9 /* Sources */,
+				CEC9A3711B7B1B6400DBF2C9 /* Frameworks */,
+				CEC9A3721B7B1B6400DBF2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGSelectButtonView;
+			productName = LGSelectButtonView;
+			productReference = CEC9A3741B7B1B6400DBF2C9 /* LGSelectButtonView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC9A38C1B7B1B6400DBF2C9 /* LGSelectButtonViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC9A39A1B7B1B6400DBF2C9 /* Build configuration list for PBXNativeTarget "LGSelectButtonViewTests" */;
+			buildPhases = (
+				CEC9A3891B7B1B6400DBF2C9 /* Sources */,
+				CEC9A38A1B7B1B6400DBF2C9 /* Frameworks */,
+				CEC9A38B1B7B1B6400DBF2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC9A38F1B7B1B6400DBF2C9 /* PBXTargetDependency */,
+			);
+			name = LGSelectButtonViewTests;
+			productName = LGSelectButtonViewTests;
+			productReference = CEC9A38D1B7B1B6400DBF2C9 /* LGSelectButtonViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC9A36C1B7B1B6300DBF2C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "李刚";
+				TargetAttributes = {
+					CEC9A3731B7B1B6400DBF2C9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CEC9A38C1B7B1B6400DBF2C9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CEC9A3731B7B1B6400DBF2C9;
+					};
+				};
+			};
+			buildConfigurationList = CEC9A36F1B7B1B6300DBF2C9 /* Build configuration list for PBXProject "LGSelectButtonView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC9A36B1B7B1B6300DBF2C9;
+			productRefGroup = CEC9A3751B7B1B6400DBF2C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC9A3731B7B1B6400DBF2C9 /* LGSelectButtonView */,
+				CEC9A38C1B7B1B6400DBF2C9 /* LGSelectButtonViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC9A3721B7B1B6400DBF2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC9A3AE1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg in Resources */,
+				CEC9A3831B7B1B6400DBF2C9 /* Main.storyboard in Resources */,
+				CEC9A3881B7B1B6400DBF2C9 /* LaunchScreen.xib in Resources */,
+				CEC9A3851B7B1B6400DBF2C9 /* Images.xcassets in Resources */,
+				CEC9A3AA1B7B2A2B00DBF2C9 /* class_up_arrow_iPhone.png in Resources */,
+				CEC9A3A91B7B2A2B00DBF2C9 /* class_down_arrow_iPhone.png in Resources */,
+				CEC9A3AC1B7B2F1E00DBF2C9 /* preference_button_iphone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC9A38B1B7B1B6400DBF2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC9A3701B7B1B6400DBF2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC9A3801B7B1B6400DBF2C9 /* ViewController.m in Sources */,
+				CE8741DE1B7C6F9400025F10 /* LGSelectButtonView.m in Sources */,
+				CEC9A37D1B7B1B6400DBF2C9 /* AppDelegate.m in Sources */,
+				CEC9A37A1B7B1B6400DBF2C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC9A3891B7B1B6400DBF2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC9A3941B7B1B6400DBF2C9 /* LGSelectButtonViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC9A38F1B7B1B6400DBF2C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC9A3731B7B1B6400DBF2C9 /* LGSelectButtonView */;
+			targetProxy = CEC9A38E1B7B1B6400DBF2C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC9A3811B7B1B6400DBF2C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC9A3821B7B1B6400DBF2C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC9A3861B7B1B6400DBF2C9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC9A3871B7B1B6400DBF2C9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC9A3951B7B1B6400DBF2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC9A3961B7B1B6400DBF2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC9A3981B7B1B6400DBF2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGSelectButtonView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC9A3991B7B1B6400DBF2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGSelectButtonView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEC9A39B1B7B1B6400DBF2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LGSelectButtonViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGSelectButtonView.app/LGSelectButtonView";
+			};
+			name = Debug;
+		};
+		CEC9A39C1B7B1B6400DBF2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LGSelectButtonViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGSelectButtonView.app/LGSelectButtonView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC9A36F1B7B1B6300DBF2C9 /* Build configuration list for PBXProject "LGSelectButtonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC9A3951B7B1B6400DBF2C9 /* Debug */,
+				CEC9A3961B7B1B6400DBF2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC9A3971B7B1B6400DBF2C9 /* Build configuration list for PBXNativeTarget "LGSelectButtonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC9A3981B7B1B6400DBF2C9 /* Debug */,
+				CEC9A3991B7B1B6400DBF2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC9A39A1B7B1B6400DBF2C9 /* Build configuration list for PBXNativeTarget "LGSelectButtonViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC9A39B1B7B1B6400DBF2C9 /* Debug */,
+				CEC9A39C1B7B1B6400DBF2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC9A36C1B7B1B6300DBF2C9 /* Project object */;
+}
