@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-
+//选择菜单，包括一个button和一个tableView，tableView可收缩。button上始终显示最新选择的条目的title
 @protocol LGSelectButtonViewDelegate <NSObject>
 
 @optional
@@ -37,8 +37,10 @@
 
 @property (nonatomic, assign) CGFloat backColorAlpha;
 
-@property (nonatomic, assign) BOOL isOpen;
-
 @property (nonatomic, weak) id<LGSelectButtonViewDelegate>delegate;
+
+- (void)openTableView;
+
+- (void)closeTableView;
 
 @end
