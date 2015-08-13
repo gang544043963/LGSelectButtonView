@@ -34,7 +34,7 @@
     view.buttonTitleFontSize = 16;
     view.tableViewRowHeight = 30;
     view.backColorAlpha = 0.6;
-    view.isOpen = NO;
+    [view closeTableView];
     view.delegate = self;
     view.layer.cornerRadius = 5;
     view.layer.masksToBounds = YES;
@@ -52,7 +52,11 @@
 {
     static BOOL open = 0;
     open = !open;
-    _view.isOpen = open ? YES : NO;
+    if (open) {
+        [_view openTableView];
+    } else {
+        [_view closeTableView];
+    }
 }
 
 #pragma mark LGSelectButtonViewDelegate

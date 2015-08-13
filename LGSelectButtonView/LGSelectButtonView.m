@@ -21,11 +21,11 @@
     UIImageView *_btnArrowImageView;
 }
 
--(void)setIsOpen:(BOOL)isOpen
+-(void)setButtonHeight:(CGFloat)buttonHeight
 {
-    _isOpen = isOpen;
-    _button.selected = _isOpen ? NO : YES;
-    [self BtnTouched];
+    _buttonHeight = buttonHeight;
+    [self createButton];
+    [self createTableView];
 }
 
 -(void)setBackColorAlpha:(CGFloat)backColorAlpha
@@ -38,32 +38,36 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        [self initProperties];
         _customFrame = frame;
-        CGRect tableViewFrame = CGRectMake(0, 0, CGRectGetWidth(_customFrame), CGRectGetHeight(_customFrame));
-        _tableView = [[UITableView alloc] initWithFrame:tableViewFrame style:UITableViewStylePlain];
-        _tableView.delegate = self;
-        _tableView.dataSource = self;
-        [self addSubview:_tableView];
     }
     return self;
 }
 
-- (void)initProperties
+- (void)openTableView
 {
-//    self.tableViewTextLableArray = @[@"-",@"-",@"-"];
-//    self.buttonHeight = 30;
-//    self.buttonDefaultTitle = @"-请选择-";
-//    self.tableViewRowHeight = 30;
-//    self.buttonTitleFontName = @"HelveticaNeue-Thin";
-//    self.buttonTitleFontSize = 16;
-//    self.backgroundColor = [UIColor whiteColor];
+    _button.selected = NO;
+    [self btnTouched];
 }
 
-- (UIButton *)createButton
+- (void)closeTableView
+{
+    _button.selected = YES;
+    [self btnTouched];
+}
+
+- (void)createTableView
+{
+    CGRect tableViewFrame = CGRectMake(0, self.buttonHeight, CGRectGetWidth(_customFrame), CGRectGetHeight(_customFrame) - self.buttonHeight);
+    _tableView = [[UITableView alloc] initWithFrame:tableViewFrame style:UITableViewStylePlain];
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    [self addSubview:_tableView];
+}
+
+- (void)createButton
 {
     if (!_button) {
-        _button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(_customFrame), self.buttonHeight)];
+        _button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.frame), self.buttonHeight)];
     }
     [_button setBackgroundImage:self.buttonBackGroundImage forState:UIControlStateNormal];
     CGSize titleSize = [self sizeWithText:self.buttonDefaultTitle
@@ -86,30 +90,26 @@
     CGRect arrowImageFrame = CGRectMake(_btnTitleLabel.center.x + CGRectGetWidth(titleFrame)/2 + 5, _btnTitleLabel.center.y - 4, 8, 8);
     _btnArrowImageView.frame = arrowImageFrame;
     [_button addSubview:_btnArrowImageView];
-    [_button addTarget:self action:@selector(BtnTouched) forControlEvents:UIControlEventTouchUpInside];
+    [_button addTarget:self action:@selector(btnTouched) forControlEvents:UIControlEventTouchUpInside];
     _button.backgroundColor = self.buttonBackGroundColor ? self.buttonBackGroundColor : [UIColor whiteColor];
     
-    return _button;
+    [self addSubview:_button];
 }
 
-- (void)BtnTouched
+- (void)btnTouched
 {
     _button.selected = !_button.selected;
     NSLog(@"%d",_button.selected);
     
     if (_button.selected) {
         [UIView animateWithDuration:0.6 animations:^{
-            CGRect newFrame = CGRectMake(_customFrame.origin.x, _customFrame.origin.y, _customFrame.size.width, _customFrame.size.height);
+            CGRect newFrame = _customFrame;
             self.frame = newFrame;
-            _tableView.frame = CGRectMake(0, 0, CGRectGetWidth(newFrame), CGRectGetHeight(newFrame));
-            _tableView.scrollEnabled = YES;
         }];
     } else {
         [UIView animateWithDuration:0.6 animations:^{
             CGRect newFrame = CGRectMake(_customFrame.origin.x, _customFrame.origin.y, _customFrame.size.width, self.buttonHeight);
             self.frame = newFrame;
-            _tableView.frame = CGRectMake(0, 0, CGRectGetWidth(newFrame), CGRectGetHeight(newFrame));
-            _tableView.scrollEnabled = NO;
         }];
     }
     [_tableView reloadData];
@@ -148,7 +148,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self BtnTouched];
+    [self btnTouched];
     
     self.buttonDefaultTitle = self.tableViewTextLableArray[indexPath.row];
     
@@ -157,13 +157,14 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return  self.buttonHeight;
+    return  1;
 }
 
 //备注：此代理方法，在所有配置完成之后才执行
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
-    return [self createButton];
+    [self createButton];
+    return nil;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
