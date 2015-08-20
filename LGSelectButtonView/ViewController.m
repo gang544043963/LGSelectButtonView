@@ -25,7 +25,7 @@
     imageView.frame = self.view.frame;
     [self.view addSubview:imageView];
     
-    LGSelectButtonView *view = [[LGSelectButtonView alloc] initWithFrame:CGRectMake(100, 100, 150, 100)];
+    LGSelectButtonView *view = [[LGSelectButtonView alloc] initWithFrame:CGRectMake(120, 100, 150, 100)];
     view.tableViewTextLableArray = @[@"123",@"6",@"73389"];
     view.buttonHeight = 30;
     view.buttonBackGroundImage = [UIImage imageNamed:@"preference_button_iphone.png"];
@@ -41,8 +41,10 @@
     [self.view addSubview:view];
     _view = view;
     
-    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(10, 20, 50, 20)];
-    btn.backgroundColor = [UIColor greenColor];
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(30, 100, 80, 30)];
+    btn.backgroundColor = [UIColor blueColor];
+    btn.titleLabel.text = @"12";
+    btn.titleLabel.textColor = [UIColor whiteColor];
     [self.view addSubview:btn];
     [btn addTarget:self action:@selector(openBtnTouched) forControlEvents:UIControlEventTouchUpInside];
     
