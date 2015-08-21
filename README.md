@@ -6,12 +6,11 @@
 
 ###初始化
 
-```
-    - (void)init
-    {
-        LGSelectButtonView *view = [[LGSelectButtonView alloc] initWithFrame:CGRectMake(100, 100, 150, 100)];
-        view.tableViewTextLableArray = @[@"123",@"6",@"73389"];
-        view.buttonHeight = 30;
+`    - (void)init`
+`    {`
+`        LGSelectButtonView *view = [[LGSelectButtonView alloc] initWithFrame:CGRectMake(100, 100, 150, 100)];`
+`        view.tableViewTextLableArray = @[@"123",@"6",@"73389"];`
+`        view.buttonHeight = 30;`
         view.buttonBackGroundImage = [UIImage imageNamed:@"preference_button_iphone.png"];
         view.buttonDefaultTitle = @"-请选择-";
         view.buttonTitleFontName = @"HelveticaNeue-Thin";
@@ -24,4 +23,4 @@
         view.layer.masksToBounds = YES;
         [self.view addSubview:view];
     }
-```
+'
