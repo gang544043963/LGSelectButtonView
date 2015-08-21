@@ -6,6 +6,7 @@
 
 ###初始化
 
+```
     - (void)init
     {
         LGSelectButtonView *view = [[LGSelectButtonView alloc] initWithFrame:CGRectMake(100, 100, 150, 100)];
@@ -23,3 +24,4 @@
         view.layer.masksToBounds = YES;
         [self.view addSubview:view];
     }
+```
