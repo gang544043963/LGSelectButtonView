@@ -5,7 +5,7 @@
     一个选择菜单，可以收缩成一个button，可以展开成一个tableView。button上始终显示最新选择的条目的title
 
 ###初始化
-<pre><code>
+
     - (void)init
     {
         LGSelectButtonView *view = [[LGSelectButtonView alloc] initWithFrame:CGRectMake(100, 100, 150, 100)];
@@ -22,7 +22,4 @@
         view.layer.cornerRadius = 5;
         view.layer.masksToBounds = YES;
         [self.view addSubview:view];
-    }。
-</code></pre>
-
-
+    }
