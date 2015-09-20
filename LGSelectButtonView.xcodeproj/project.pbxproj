@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44F1B02C1BAE5ECF003BCF6A /* LGSelectButtonView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 44F1B02B1BAE5ECF003BCF6A /* LGSelectButtonView.podspec */; };
 		CE8741DE1B7C6F9400025F10 /* LGSelectButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8741DD1B7C6F9400025F10 /* LGSelectButtonView.m */; };
 		CEC9A37A1B7B1B6400DBF2C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9A3791B7B1B6400DBF2C9 /* main.m */; };
 		CEC9A37D1B7B1B6400DBF2C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9A37C1B7B1B6400DBF2C9 /* AppDelegate.m */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44F1B02B1BAE5ECF003BCF6A /* LGSelectButtonView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LGSelectButtonView.podspec; sourceTree = "<group>"; };
 		CE8741DC1B7C6F9400025F10 /* LGSelectButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSelectButtonView.h; sourceTree = "<group>"; };
 		CE8741DD1B7C6F9400025F10 /* LGSelectButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSelectButtonView.m; sourceTree = "<group>"; };
 		CEC9A3741B7B1B6400DBF2C9 /* LGSelectButtonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGSelectButtonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +76,7 @@
 		CEC9A36B1B7B1B6300DBF2C9 = {
 			isa = PBXGroup;
 			children = (
+				44F1B02B1BAE5ECF003BCF6A /* LGSelectButtonView.podspec */,
 				CEC9A3761B7B1B6400DBF2C9 /* LGSelectButtonView */,
 				CEC9A3901B7B1B6400DBF2C9 /* LGSelectButtonViewTests */,
 				CEC9A3751B7B1B6400DBF2C9 /* Products */,
@@ -224,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F1B02C1BAE5ECF003BCF6A /* LGSelectButtonView.podspec in Resources */,
 				CEC9A3AE1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg in Resources */,
 				CEC9A3831B7B1B6400DBF2C9 /* Main.storyboard in Resources */,
 				CEC9A3881B7B1B6400DBF2C9 /* LaunchScreen.xib in Resources */,
