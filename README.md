@@ -6,7 +6,7 @@
     
 ###动画效果
 
-    <img src="https://github.com/gang544043963/LGSelectButtonView/blob/master/LGSelectButton.gif?raw=true" alt="CXLSlideList Screenshot" width="370" height="686"/>
+<img src="https://github.com/gang544043963/LGSelectButtonView/blob/master/LGSelectButton.gif?raw=true" alt="CXLSlideList Screenshot" width="370" height="686"/>
 
 ###初始化
 
