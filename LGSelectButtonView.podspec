@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 s.name         = "LGSelectButtonView"
 s.version      = "1.0"
-s.summary      = "一个选择菜单，可以收缩成一个button，可以展开成一个tableView。button上始终显示最新选择的条目的title"
+s.summary      = "A selection menu, can shrink into a button, can be expanded into a tableView. Button will always display the latest selected item on the title"
 
 s.homepage     = "https://github.com/gang544043963/LGSelectButtonView"
 s.license      = 'MIT'
