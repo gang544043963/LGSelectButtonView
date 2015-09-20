@@ -73,6 +73,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44F1B02D1BAE93F0003BCF6A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CEC9A3A71B7B2A2B00DBF2C9 /* class_down_arrow_iPhone.png */,
+				CEC9A3AD1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg */,
+				CEC9A3AB1B7B2F1E00DBF2C9 /* preference_button_iphone.png */,
+				CEC9A3A81B7B2A2B00DBF2C9 /* class_up_arrow_iPhone.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 		CEC9A36B1B7B1B6300DBF2C9 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +112,6 @@
 				CEC9A37E1B7B1B6400DBF2C9 /* ViewController.h */,
 				CEC9A37F1B7B1B6400DBF2C9 /* ViewController.m */,
 				CEC9A3811B7B1B6400DBF2C9 /* Main.storyboard */,
-				CEC9A3A71B7B2A2B00DBF2C9 /* class_down_arrow_iPhone.png */,
-				CEC9A3AD1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg */,
-				CEC9A3AB1B7B2F1E00DBF2C9 /* preference_button_iphone.png */,
-				CEC9A3A81B7B2A2B00DBF2C9 /* class_up_arrow_iPhone.png */,
 				CEC9A3841B7B1B6400DBF2C9 /* Images.xcassets */,
 				CEC9A3861B7B1B6400DBF2C9 /* LaunchScreen.xib */,
 				CEC9A3771B7B1B6400DBF2C9 /* Supporting Files */,
@@ -141,6 +148,7 @@
 		CEC9A39D1B7B1B8700DBF2C9 /* LGSelectButtonView */ = {
 			isa = PBXGroup;
 			children = (
+				44F1B02D1BAE93F0003BCF6A /* image */,
 				CE8741DC1B7C6F9400025F10 /* LGSelectButtonView.h */,
 				CE8741DD1B7C6F9400025F10 /* LGSelectButtonView.m */,
 			);

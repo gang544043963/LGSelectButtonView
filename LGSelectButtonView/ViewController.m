@@ -25,8 +25,8 @@
     imageView.frame = self.view.frame;
     [self.view addSubview:imageView];
     
-    LGSelectButtonView *view = [[LGSelectButtonView alloc] initWithFrame:CGRectMake(100, 100, 150, 100)];
-    view.tableViewTextLableArray = @[@"123",@"6",@"73389"];
+    LGSelectButtonView *view = [[LGSelectButtonView alloc] initWithFrame:CGRectMake(100, 200, 150, 150)];
+    view.tableViewTextLableArray = @[@"德玛西亚",@"寒冰射手",@"无极剑圣"];
     view.buttonHeight = 30;
     view.buttonBackGroundImage = [UIImage imageNamed:@"preference_button_iphone.png"];
     view.buttonDefaultTitle = @"-请选择-";
@@ -41,8 +41,9 @@
     [self.view addSubview:view];
     _view = view;
     
-    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(10, 20, 50, 20)];
-    btn.backgroundColor = [UIColor greenColor];
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100 , 130, 150, 30)];
+    btn.backgroundColor = [UIColor lightGrayColor];
+    [btn setTitle:@"展开/关闭" forState:UIControlStateNormal];
     [self.view addSubview:btn];
     [btn addTarget:self action:@selector(openBtnTouched) forControlEvents:UIControlEventTouchUpInside];
                                                                

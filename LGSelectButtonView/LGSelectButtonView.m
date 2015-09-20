@@ -1,11 +1,3 @@
-//
-//  LGSelectButtonView.m
-//  LGSelectButtonView
-//
-//  Created by 李刚 on 15/8/12.
-//  Copyright (c) 2015年 李刚. All rights reserved.
-//
-
 #import "LGSelectButtonView.h"
 
 @interface LGSelectButtonView()<UITableViewDataSource,UITableViewDelegate>
@@ -71,8 +63,8 @@
     }
     [_button setBackgroundImage:self.buttonBackGroundImage forState:UIControlStateNormal];
     CGSize titleSize = [self sizeWithText:self.buttonDefaultTitle
-                                      font:[UIFont fontWithName:self.buttonTitleFontName size:self.buttonTitleFontSize]
-                                   maxSize:CGSizeMake(MAXFLOAT, MAXFLOAT)];
+                                     font:[UIFont fontWithName:self.buttonTitleFontName size:self.buttonTitleFontSize]
+                                  maxSize:CGSizeMake(MAXFLOAT, MAXFLOAT)];
     CGRect titleFrame = CGRectMake((CGRectGetWidth(_customFrame) - titleSize.width)/2, (self.buttonHeight - titleSize.height)/2, titleSize.width, titleSize.height);
     NSLog(@"titleFrame-------%@",NSStringFromCGRect(titleFrame));
     [_btnTitleLabel removeFromSuperview];
@@ -173,3 +165,4 @@
 }
 
 @end
+
