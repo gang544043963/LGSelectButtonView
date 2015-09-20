@@ -3,6 +3,10 @@
 ###概述
 
     一个选择菜单，可以收缩成一个button，可以展开成一个tableView。button上始终显示最新选择的条目的title
+    
+###动画效果
+
+    <img src="https://github.com/gang544043963/LGSelectButtonView/blob/master/LGSelectButton.gif?raw=true" alt="CXLSlideList Screenshot" width="370" height="686"/>
 
 ###初始化
 
