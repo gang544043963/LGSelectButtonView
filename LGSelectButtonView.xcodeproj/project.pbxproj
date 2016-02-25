@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4457469A1C7EC8F10048942D /* LGSelectButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 445746941C7EC8F10048942D /* LGSelectButtonView.m */; };
+		4457469B1C7EC8F10048942D /* class_down_arrow_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 445746961C7EC8F10048942D /* class_down_arrow_iPhone.png */; };
+		4457469C1C7EC8F10048942D /* class_up_arrow_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 445746971C7EC8F10048942D /* class_up_arrow_iPhone.png */; };
+		4457469D1C7EC8F10048942D /* intelligent_backImage_ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 445746981C7EC8F10048942D /* intelligent_backImage_ipad.jpg */; };
+		4457469E1C7EC8F10048942D /* preference_button_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 445746991C7EC8F10048942D /* preference_button_iphone.png */; };
 		44F1B02C1BAE5ECF003BCF6A /* LGSelectButtonView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 44F1B02B1BAE5ECF003BCF6A /* LGSelectButtonView.podspec */; };
-		CE8741DE1B7C6F9400025F10 /* LGSelectButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8741DD1B7C6F9400025F10 /* LGSelectButtonView.m */; };
 		CEC9A37A1B7B1B6400DBF2C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9A3791B7B1B6400DBF2C9 /* main.m */; };
 		CEC9A37D1B7B1B6400DBF2C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9A37C1B7B1B6400DBF2C9 /* AppDelegate.m */; };
 		CEC9A3801B7B1B6400DBF2C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9A37F1B7B1B6400DBF2C9 /* ViewController.m */; };
@@ -16,10 +20,6 @@
 		CEC9A3851B7B1B6400DBF2C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3841B7B1B6400DBF2C9 /* Images.xcassets */; };
 		CEC9A3881B7B1B6400DBF2C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3861B7B1B6400DBF2C9 /* LaunchScreen.xib */; };
 		CEC9A3941B7B1B6400DBF2C9 /* LGSelectButtonViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9A3931B7B1B6400DBF2C9 /* LGSelectButtonViewTests.m */; };
-		CEC9A3A91B7B2A2B00DBF2C9 /* class_down_arrow_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3A71B7B2A2B00DBF2C9 /* class_down_arrow_iPhone.png */; };
-		CEC9A3AA1B7B2A2B00DBF2C9 /* class_up_arrow_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3A81B7B2A2B00DBF2C9 /* class_up_arrow_iPhone.png */; };
-		CEC9A3AC1B7B2F1E00DBF2C9 /* preference_button_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3AB1B7B2F1E00DBF2C9 /* preference_button_iphone.png */; };
-		CEC9A3AE1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEC9A3AD1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		445746931C7EC8F10048942D /* LGSelectButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSelectButtonView.h; sourceTree = "<group>"; };
+		445746941C7EC8F10048942D /* LGSelectButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSelectButtonView.m; sourceTree = "<group>"; };
+		445746961C7EC8F10048942D /* class_down_arrow_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_down_arrow_iPhone.png; sourceTree = "<group>"; };
+		445746971C7EC8F10048942D /* class_up_arrow_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_up_arrow_iPhone.png; sourceTree = "<group>"; };
+		445746981C7EC8F10048942D /* intelligent_backImage_ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intelligent_backImage_ipad.jpg; sourceTree = "<group>"; };
+		445746991C7EC8F10048942D /* preference_button_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preference_button_iphone.png; sourceTree = "<group>"; };
 		44F1B02B1BAE5ECF003BCF6A /* LGSelectButtonView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LGSelectButtonView.podspec; sourceTree = "<group>"; };
-		CE8741DC1B7C6F9400025F10 /* LGSelectButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSelectButtonView.h; sourceTree = "<group>"; };
-		CE8741DD1B7C6F9400025F10 /* LGSelectButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSelectButtonView.m; sourceTree = "<group>"; };
 		CEC9A3741B7B1B6400DBF2C9 /* LGSelectButtonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGSelectButtonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC9A3781B7B1B6400DBF2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC9A3791B7B1B6400DBF2C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,10 +53,6 @@
 		CEC9A38D1B7B1B6400DBF2C9 /* LGSelectButtonViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSelectButtonViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC9A3921B7B1B6400DBF2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC9A3931B7B1B6400DBF2C9 /* LGSelectButtonViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSelectButtonViewTests.m; sourceTree = "<group>"; };
-		CEC9A3A71B7B2A2B00DBF2C9 /* class_down_arrow_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_down_arrow_iPhone.png; sourceTree = "<group>"; };
-		CEC9A3A81B7B2A2B00DBF2C9 /* class_up_arrow_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_up_arrow_iPhone.png; sourceTree = "<group>"; };
-		CEC9A3AB1B7B2F1E00DBF2C9 /* preference_button_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preference_button_iphone.png; sourceTree = "<group>"; };
-		CEC9A3AD1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intelligent_backImage_ipad.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,15 +73,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44F1B02D1BAE93F0003BCF6A /* image */ = {
+		445746921C7EC8F10048942D /* class */ = {
 			isa = PBXGroup;
 			children = (
-				CEC9A3A71B7B2A2B00DBF2C9 /* class_down_arrow_iPhone.png */,
-				CEC9A3AD1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg */,
-				CEC9A3AB1B7B2F1E00DBF2C9 /* preference_button_iphone.png */,
-				CEC9A3A81B7B2A2B00DBF2C9 /* class_up_arrow_iPhone.png */,
+				445746931C7EC8F10048942D /* LGSelectButtonView.h */,
+				445746941C7EC8F10048942D /* LGSelectButtonView.m */,
 			);
-			name = image;
+			path = class;
+			sourceTree = "<group>";
+		};
+		445746951C7EC8F10048942D /* image */ = {
+			isa = PBXGroup;
+			children = (
+				445746961C7EC8F10048942D /* class_down_arrow_iPhone.png */,
+				445746971C7EC8F10048942D /* class_up_arrow_iPhone.png */,
+				445746981C7EC8F10048942D /* intelligent_backImage_ipad.jpg */,
+				445746991C7EC8F10048942D /* preference_button_iphone.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 		CEC9A36B1B7B1B6300DBF2C9 = {
@@ -106,7 +115,8 @@
 		CEC9A3761B7B1B6400DBF2C9 /* LGSelectButtonView */ = {
 			isa = PBXGroup;
 			children = (
-				CEC9A39D1B7B1B8700DBF2C9 /* LGSelectButtonView */,
+				445746921C7EC8F10048942D /* class */,
+				445746951C7EC8F10048942D /* image */,
 				CEC9A37B1B7B1B6400DBF2C9 /* AppDelegate.h */,
 				CEC9A37C1B7B1B6400DBF2C9 /* AppDelegate.m */,
 				CEC9A37E1B7B1B6400DBF2C9 /* ViewController.h */,
@@ -143,16 +153,6 @@
 				CEC9A3921B7B1B6400DBF2C9 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CEC9A39D1B7B1B8700DBF2C9 /* LGSelectButtonView */ = {
-			isa = PBXGroup;
-			children = (
-				44F1B02D1BAE93F0003BCF6A /* image */,
-				CE8741DC1B7C6F9400025F10 /* LGSelectButtonView.h */,
-				CE8741DD1B7C6F9400025F10 /* LGSelectButtonView.m */,
-			);
-			name = LGSelectButtonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,14 +235,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4457469D1C7EC8F10048942D /* intelligent_backImage_ipad.jpg in Resources */,
+				4457469B1C7EC8F10048942D /* class_down_arrow_iPhone.png in Resources */,
 				44F1B02C1BAE5ECF003BCF6A /* LGSelectButtonView.podspec in Resources */,
-				CEC9A3AE1B7B550700DBF2C9 /* intelligent_backImage_ipad.jpg in Resources */,
+				4457469E1C7EC8F10048942D /* preference_button_iphone.png in Resources */,
 				CEC9A3831B7B1B6400DBF2C9 /* Main.storyboard in Resources */,
 				CEC9A3881B7B1B6400DBF2C9 /* LaunchScreen.xib in Resources */,
+				4457469C1C7EC8F10048942D /* class_up_arrow_iPhone.png in Resources */,
 				CEC9A3851B7B1B6400DBF2C9 /* Images.xcassets in Resources */,
-				CEC9A3AA1B7B2A2B00DBF2C9 /* class_up_arrow_iPhone.png in Resources */,
-				CEC9A3A91B7B2A2B00DBF2C9 /* class_down_arrow_iPhone.png in Resources */,
-				CEC9A3AC1B7B2F1E00DBF2C9 /* preference_button_iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC9A3801B7B1B6400DBF2C9 /* ViewController.m in Sources */,
-				CE8741DE1B7C6F9400025F10 /* LGSelectButtonView.m in Sources */,
+				4457469A1C7EC8F10048942D /* LGSelectButtonView.m in Sources */,
 				CEC9A37D1B7B1B6400DBF2C9 /* AppDelegate.m in Sources */,
 				CEC9A37A1B7B1B6400DBF2C9 /* main.m in Sources */,
 			);
